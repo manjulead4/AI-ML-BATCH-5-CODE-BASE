@@ -3,3 +3,4 @@ print(list[0:3])
 print(list[1:4])
 
 print(list.insert(2,15))
+

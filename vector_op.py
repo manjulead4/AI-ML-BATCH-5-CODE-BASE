@@ -6,3 +6,5 @@ print("dot product:",np.dot(v,w))
 print("addition:",np.add(v,w))
 print("subtraction:",np.subtract(v,w))
 print("multiplication:",np.multiply(v,w))
+
+

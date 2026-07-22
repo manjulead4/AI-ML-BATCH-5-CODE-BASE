@@ -7,5 +7,4 @@ def discount(price,percentage):
 item1 = discount(100,20)
 item2 = discount(200,15)
 
-print(item1)
-print(item2)
+print(item1,item2)
