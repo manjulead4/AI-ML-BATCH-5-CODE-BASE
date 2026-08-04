@@ -1,0 +1,44 @@
+from sklearn.metrics 
+import accuracy_score,confusion_matrix,classification_report,recall_score,precision_score,f1_score
+
+
+
+# step 1 : import models and mosules using libraries 
+
+
+# step 2  :  split trian and test 
+
+
+# training data is 80 % of my data  
+and testing data should be 20 %
+
+
+step 3 : using the    x test,ytrain,xtrain,ytest
+
+# i will send the inputs 
+
+
+step 4 : model training 
+
+model = logistic regression model 
+
+model.fit(x,train,ytrain)
+
+
+# step 5: prediction stage 
+
+using the preditct funtion ()
+
+prediction = model.predict(y_text)
+
+
+
+# evaluation model  & metrics involved 
+
+print("accuracy",accuracy_score(Y-test,y-prediction))
+
+print("precison",precision_score(ytest,y_pred))
+
+print("recall_score",recall_score(precision_score,y_pred))
+
+print("f1_score",f1_score(mean(precision_score,recall_score)))
